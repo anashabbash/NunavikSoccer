@@ -10,8 +10,8 @@ import "./Home.css";
 function Home() {
   return (
     <div>
+      <SlideImages />
       <div className="content" id="homepage">
-        <SlideImages />
         <h1>Our Crest</h1>
         <p>
           The Nunavik Soccer crest was adapted from The Flag of Nunavik, a

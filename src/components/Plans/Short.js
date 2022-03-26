@@ -3,9 +3,9 @@ import React from "react";
 function Short() {
   return (
     <div>
-      <h2>
+      <h1 style={{ fontSize: "2rem" }}>
         TRAINING, RECRUITMENT, RETENTION - COACHES, FACILITATORS AND REFEREES
-      </h2>
+      </h1>
       <p>
         <strong>
           Remote access to training resources and official courses
@@ -59,7 +59,9 @@ function Short() {
         </li>
       </ol>
       <br />
-      <h2>PLAYER RECRUITMENT AND TALENT DEVELOPMENT</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        PLAYER RECRUITMENT AND TALENT DEVELOPMENT
+      </h1>
       <p>
         <strong>
           Specific resources, programs and events to promote gender equity in
@@ -90,7 +92,9 @@ function Short() {
         </li>
       </ol>
       <br />
-      <h2>CURRICULUM: FOUR CORNERS AND FOUR CIRCLES </h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        CURRICULUM: FOUR CORNERS AND FOUR CIRCLES{" "}
+      </h1>
       <p>
         <strong>Support for the establishment of a summer soccer camp</strong>
       </p>
@@ -117,7 +121,9 @@ function Short() {
         </li>
       </ul>
       <br />
-      <h2>FACILITIES, MATERIALS, FUNDRAISING AND SECURITY</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        FACILITIES, MATERIALS, FUNDRAISING AND SECURITY
+      </h1>
       <p>
         <strong>
           Technical assistance for the integration of Nunavik into the
@@ -133,7 +139,9 @@ function Short() {
         </li>
       </ol>
       <br />
-      <h2>GOVERNANCE, INSTITUTIONAL AND MEDIA RELATIONS</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        GOVERNANCE, INSTITUTIONAL AND MEDIA RELATIONS
+      </h1>
       <p>
         <strong>
           Technical assistance for the integration of Nunavik into the

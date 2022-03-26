@@ -1,12 +1,15 @@
-import * as React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Short from "./Plans/Short";
-import Medium from "./Plans/Medium";
-import Long from "./Plans/Long";
+import TermsTable from "./TermsTable";
+
+import PDFPage from "./PDFPage";
+import MovementPrep from "./MovementPrep";
+import MentalFitness from "./MentalFitness";
+import SleepRecovery from "./SleepRecovery";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -56,15 +59,27 @@ export default function ResourcesTabs() {
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          <Tab label="PLAYERS" {...a11yProps(0)} />
-          <Tab label="COACHES" {...a11yProps(1)} />
+          <Tab label="Terms" {...a11yProps(0)} />
+          <Tab label="Movement Preparation Guide" {...a11yProps(1)} />
+          <Tab label="Mental Fitness" {...a11yProps(2)} />
+          <Tab label="Sleep Recovery" {...a11yProps(3)} />
         </Tabs>
       </Box>
+
       <TabPanel value={value} index={0}>
-        PLAYERS
+        <TermsTable />
       </TabPanel>
+
       <TabPanel value={value} index={1}>
-        COACHES
+        <MovementPrep />
+      </TabPanel>
+
+      <TabPanel value={value} index={2}>
+        <MentalFitness />
+      </TabPanel>
+
+      <TabPanel value={value} index={3}>
+        <SleepRecovery />
       </TabPanel>
     </Box>
   );

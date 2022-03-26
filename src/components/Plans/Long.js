@@ -4,9 +4,9 @@ import AgeGroupTable from "../AgeGroupTable";
 function Long() {
   return (
     <div>
-      <h2>
+      <h1 style={{ fontSize: "2rem" }}>
         TRAINING, RECRUITMENT, RETENTION - COACHES, FACILITATORS AND REFEREES
-      </h2>
+      </h1>
       <p>
         <strong>Coach training and facility development</strong>
       </p>
@@ -39,7 +39,9 @@ function Long() {
         </li>
         <br />
       </ol>
-      <h2>PLAYER RECRUITMENT AND TALENT DEVELOPMENT</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        PLAYER RECRUITMENT AND TALENT DEVELOPMENT
+      </h1>
       <p>
         <strong>Identification of talents and competitive opportunities</strong>
       </p>
@@ -86,7 +88,9 @@ function Long() {
         <br />
       </ol>
 
-      <h2>CURRICULUM: FOUR CORNERS AND FOUR CIRCLES </h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        CURRICULUM: FOUR CORNERS AND FOUR CIRCLES{" "}
+      </h1>
       <p>
         <strong>Inclusive and adaptive soccer opportunities</strong>
       </p>
@@ -109,7 +113,9 @@ function Long() {
         </li>
       </ol>
       <br />
-      <h2>FACILITIES, MATERIALS, FUNDRAISING AND SECURITY</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        FACILITIES, MATERIALS, FUNDRAISING AND SECURITY
+      </h1>
       <ol>
         <li>
           Support for the development, financing and planning of multi- purpose
@@ -119,7 +125,9 @@ function Long() {
         </li>
       </ol>
       <br />
-      <h2>GOVERNANCE, INSTITUTIONAL AND MEDIA RELATIONS</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        GOVERNANCE, INSTITUTIONAL AND MEDIA RELATIONS
+      </h1>
       <p>
         <strong>
           Visibility of Inuit participation in soccer (Confederations Cup and

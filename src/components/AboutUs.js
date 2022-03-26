@@ -32,6 +32,8 @@ function AboutUs() {
           Nunagat and the circumpolar region.
         </li>
       </ul>
+      <br />
+      <br />
       <h1>Our Plan: ARSANIIT 2026 </h1>
       <h2>Priorties for 2022-2025</h2>
       <ul>
@@ -114,7 +116,9 @@ function AboutUs() {
         <li>Facilities, materials, fundraising and security</li>
         <li>Governance, Institutional and Media Relations</li>
       </ol>
-      <PlansTabs />
+      <div style={{ marginTop: "2%" }}>
+        <PlansTabs />
+      </div>
     </div>
   );
 }

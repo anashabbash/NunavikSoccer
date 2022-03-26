@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Medium() {
   return (
     <div>
-      <h2>
+      <h1 style={{ fontSize: "2rem" }}>
         TRAINING, RECRUITMENT, RETENTION - COACHES, FACILITATORS AND REFEREES
-      </h2>
+      </h1>
       <p>
         <strong>Support for the expansion of Nunavik Soccer</strong>
       </p>
@@ -93,7 +93,9 @@ function Medium() {
         </li>
       </ol>
       <br />
-      <h2>CURRICULUM: FOUR CORNERS AND FOUR CIRCLES </h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        CURRICULUM: FOUR CORNERS AND FOUR CIRCLES{" "}
+      </h1>
       <p>
         <strong>
           Support for the organization of tournaments and the competitive
@@ -168,7 +170,9 @@ function Medium() {
         </li>
       </ol>
       <br />
-      <h2>FACILITIES, MATERIALS, FUNDRAISING AND SECURITY</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        FACILITIES, MATERIALS, FUNDRAISING AND SECURITY
+      </h1>
       <ol>
         <li>
           Support for the development of funding sources in the public and
@@ -198,7 +202,9 @@ function Medium() {
         </li>
       </ol>
       <br />
-      <h2>GOVERNANCE, INSTITUTIONAL AND MEDIA RELATIONS</h2>
+      <h1 style={{ fontSize: "2rem" }}>
+        GOVERNANCE, INSTITUTIONAL AND MEDIA RELATIONS
+      </h1>
       <ol>
         <li>
           Support for the development of the sport governance structure (see

@@ -77,10 +77,8 @@ export default function AgeGroupTable() {
           <TableHead>
             <TableRow>
               <TableCell>Age group (biological age)</TableCell>
-              <TableCell align="right">
-                Number of coaches needed (per community)
-              </TableCell>
-              <TableCell align="right">Coaching Qualifications</TableCell>
+              <TableCell>Number of coaches needed (per community)</TableCell>
+              <TableCell>Coaching Qualifications</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -92,8 +90,8 @@ export default function AgeGroupTable() {
                 <TableCell component="th" scope="row">
                   {row.ageGroup}
                 </TableCell>
-                <TableCell align="right">{row.numCoaches}</TableCell>
-                <TableCell align="right">{row.coachingQualif}</TableCell>
+                <TableCell>{row.numCoaches}</TableCell>
+                <TableCell>{row.coachingQualif}</TableCell>
               </TableRow>
             ))}
           </TableBody>

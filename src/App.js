@@ -8,6 +8,7 @@ import Events from "./components/Events";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import participationAndFacilities from "./components/participationAndFacilities";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />

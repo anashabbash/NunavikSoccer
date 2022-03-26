@@ -1,5 +1,6 @@
 import React from "react";
 import Tags from "./Tags";
+import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 function Footer1() {
@@ -17,30 +18,36 @@ function Footer1() {
           </div>
 
           <div className="column">
-            <h1>LATEST NEWS</h1>
+            <h1>SECTIONS</h1>
             <ul>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
+              <li>
+                <NavLink to="/">HOME</NavLink>
+              </li>
+              <li>
+                <NavLink to="/resources">RESOURCES</NavLink>
+              </li>
+              <li>
+                <NavLink to="/events">EVENTS</NavLink>
+              </li>
+              <li>
+                <NavLink to="/aboutus">ABOUT US</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contactus">CONTACT US</NavLink>
+              </li>
             </ul>
           </div>
 
           <div className="column">
             <h1>TAGS</h1>
             <div style={{ display: "flex", flexWrap: "wrap" }}>
-              <Tags str="goals" />
-              <Tags str="matches" />
-              <Tags str="match results" />
-              <Tags str="news" />
-              <Tags str="players" />
-              <Tags str="post format" />
-              <Tags str="results" />
-              <Tags str="soccer" />
-              <Tags str="sponsers" />
-              <Tags str="store" />
-              <Tags str="teams" />
-              <Tags str="tournaments" />
+              <Tags tag="Movment Preparation" route="/resources" />
+              <Tags tag="Mental fitness" route="/resources" />
+              <Tags tag="sleep recovery" route="/resources" />
+              <Tags tag="news" route="/events" />
+              <Tags tag="Terms" route="/resources" />
+              <Tags tag="plans" route="/aboutus" />
+              <Tags tag="contact us" route="/contactus" />
             </div>
           </div>
         </div>

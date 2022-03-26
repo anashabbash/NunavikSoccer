@@ -1,0 +1,36 @@
+#contactus > h1 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 4rem;
+  color: #004b9e;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 40vh;
+  margin-top: 3%;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+}
+
+.flex-container > .flex-item {
+  padding: 2%;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.row {
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 750px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}

@@ -1,4 +1,4 @@
-import logo from "../pictures/logo.png";
+import logo from "../pictures/logo1.png";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -30,7 +30,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="overlay" onClick={() => setOpen(false)}>
-        <img src={logo} className="logo" alt="Logo" />
+        <div className="img-wrapper">
+          <img src={logo} className="logo" alt="Logo" />
+        </div>
       </Link>
 
       <div onClick={() => setOpen(!open)} className="nav-icon">
