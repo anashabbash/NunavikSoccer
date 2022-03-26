@@ -1,0 +1,17 @@
+.tag {
+  border: 1px solid white;
+  display: grid;
+  place-items: center;
+  font-weight: 500;
+  padding: 10px;
+  margin: 5px;
+  width: auto;
+  border-radius: 0.3rem;
+}
+
+.tag:hover {
+  background-color: white;
+  color: #004b9e;
+  border-color: #afafaf;
+  cursor: pointer;
+}

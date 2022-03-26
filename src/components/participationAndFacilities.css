@@ -1,0 +1,14 @@
+#participation-page {
+  margin-top: 3%;
+}
+
+#participation-page h2 {
+  margin-bottom: 1%;
+  color: #004b9e;
+}
+
+#participation-page p,
+#participation-page li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
