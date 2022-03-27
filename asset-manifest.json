@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/NunavikSoccer/static/css/main.84733768.css",
+    "main.js": "/NunavikSoccer/static/js/main.b8e2546a.js",
+    "static/media/Physical Literacy Movement Preparation Guide_Web.pdf": "/NunavikSoccer/static/media/Physical Literacy Movement Preparation Guide_Web.6c5977d7c3ef456213ad.pdf",
+    "static/media/Mental-Fitness.pdf": "/NunavikSoccer/static/media/Mental-Fitness.9c1bfde098ef51cf01d3.pdf",
+    "static/media/Sleep-Recovery.pdf": "/NunavikSoccer/static/media/Sleep-Recovery.44c89a0c4e11ef48fa9a.pdf",
+    "static/media/logo1.png": "/NunavikSoccer/static/media/logo1.f29894c24823e4978639.png",
+    "static/media/map_Nunavik.jpg": "/NunavikSoccer/static/media/map_Nunavik.1302c558d66fe43cb90f.jpg",
+    "static/media/PL Movement Prep 11+.pdf": "/NunavikSoccer/static/media/PL Movement Prep 11+.5853fc4da57a6cbce964.pdf",
+    "static/media/PL Movement Prep 9-10.pdf": "/NunavikSoccer/static/media/PL Movement Prep 9-10.715bda4844edc82e3c6a.pdf",
+    "static/media/PL Movement Prep 7-8.pdf": "/NunavikSoccer/static/media/PL Movement Prep 7-8.c4f501b7b929c63ac0a1.pdf",
+    "static/media/OldBoys.jpg": "/NunavikSoccer/static/media/OldBoys.3fffa6fd7d6c849bed12.jpg",
+    "static/media/pic2.jpg": "/NunavikSoccer/static/media/pic2.463975f76f01797a45df.jpg",
+    "static/media/pic3.jpg": "/NunavikSoccer/static/media/pic3.8f3fa8388d5a55c1c6fa.jpg",
+    "static/media/pic1.jpg": "/NunavikSoccer/static/media/pic1.d47e119553b717c272b8.jpg",
+    "static/media/Flag_of_Nunavik.png": "/NunavikSoccer/static/media/Flag_of_Nunavik.15b6a14b362cb8ba0900.png",
+    "index.html": "/NunavikSoccer/index.html",
+    "main.84733768.css.map": "/NunavikSoccer/static/css/main.84733768.css.map",
+    "main.b8e2546a.js.map": "/NunavikSoccer/static/js/main.b8e2546a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84733768.css",
+    "static/js/main.b8e2546a.js"
+  ]
+}
